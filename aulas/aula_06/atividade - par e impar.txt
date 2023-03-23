@@ -1,0 +1,15 @@
+Crie um programa em java utilizando o FOR de 1 ate 100  
+separe os números pares dos impares 
+Some os números pares  
+Some os números ímpares e pares Compare os dois número  
+Mostre qual é maior 
+ 
+
+parte dois  
+
+Crie a função para o exercício acima  
+ 
+
+Parte três  
+
+Execute na classe teste 
