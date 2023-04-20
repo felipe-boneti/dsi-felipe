@@ -10,6 +10,11 @@ public class Usuario {
     String cpf;
     String email;
     String telefone;
+    String Cidade;
+    String Sexo;
+    String DataDeNascimento;
+    String EstadoCivil;
+    String Profissao;
     
     public String getCpf() {
         return cpf;
@@ -38,5 +43,35 @@ public class Usuario {
     public void setTelefone(String telefone){
         this.telefone = telefone;
     }
-
+    public String getCidade(){
+        return Cidade;
+    }
+    public void setCidade(String Cidade){
+        this.Cidade = Cidade;
+    }
+    public String getSexo(){
+        return Sexo ;
+    }
+    public void setSexo(String Sexo){
+        this.Sexo = Sexo;
+    }
+    public String getDataDeNascimento(){
+        return DataDeNascimento;
+    }
+    public void setDataDeNascimento(String DataDeNascimento){
+        this.DataDeNascimento = DataDeNascimento;
+    }
+    public String getEstadoCivil(){
+        return EstadoCivil;
+    }
+    public void setEstadoCivil(String EstadoCivil){
+        this.EstadoCivil = EstadoCivil;
+    }
+    public String getProfissao(){
+        return Profissao;
+    }
+    public void setProfissao(String Profissao){
+        this.Profissao = Profissao;
+    }
 }
+
