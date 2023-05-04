@@ -17,11 +17,11 @@ public class Teste {
         CarroDAO cd = new CarroDAO(con);
         
         //MÉTODO DE INSERIR REGISTROS NO BANCO
-//        cb.setPlaca("FZL2022");
-//        cb.setCor("Preto");
-//        cb.setDescricao("Carro 2");
-//        
-//        System.out.println(cd.Inserir(cb));
+        cb.setPlaca("FZL2022");
+        cb.setCor("Preto");
+        cb.setDescricao("Carro 2");
+        
+        System.out.println(cd.Inserir(cb));
         
         //MÉTODO DE EDITAR REGISTROS NO BANCO
         /*cb.setPlaca("JKK1900");
