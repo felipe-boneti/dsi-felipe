@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 03-Maio-2023 às 23:35
+-- Tempo de geração: 11-Maio-2023 às 01:30
 -- Versão do servidor: 5.7.36
 -- versão do PHP: 7.4.26
 
@@ -40,28 +40,17 @@ CREATE TABLE IF NOT EXISTS `carro` (
 --
 
 INSERT INTO `carro` (`placa`, `cor`, `descricao`) VALUES
-('FZL2022', 'Preto', 'Carro 2');
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `piecemaker`
---
-
-DROP TABLE IF EXISTS `piecemaker`;
-CREATE TABLE IF NOT EXISTS `piecemaker` (
-  `capitao` varchar(250) NOT NULL,
-  `vice_cap` varchar(250) DEFAULT NULL,
-  `cozinheiro` varchar(250) DEFAULT NULL,
-  PRIMARY KEY (`capitao`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Extraindo dados da tabela `piecemaker`
---
-
-INSERT INTO `piecemaker` (`capitao`, `vice_cap`, `cozinheiro`) VALUES
-('Luffy', 'Zoro', 'Numero 4');
+('MCN7610', 'Preto e laranja', 'Naruto Beam'),
+('GHI9012', 'Vermelho', 'Carro 3'),
+('JKL3456', 'Azul', 'Carro 4'),
+('MNO7890', 'Cinza', 'Carro 5'),
+('PQR2345', 'Prata', 'Carro 6'),
+('STU6789', 'Verde', 'Carro 7'),
+('VWX1234', 'Amarelo', 'Carro 8'),
+('YZA5678', 'Roxo', 'Carro 9'),
+('BCD9012', 'Marrom', 'Carro 10'),
+('ABC2468', 'Prata', 'Carro teste'),
+('XYZ1234', 'Azul', 'Carro azul');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
